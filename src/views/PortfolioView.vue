@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import MerchWorks from "@/components/MerchView.vue";
+</script>
 <template>
     <main>
         <div class="title-container">
@@ -9,6 +11,14 @@
             <h1 class="title">Specialising in Logo & Poster and Merch Design.</h1>
             <span class="title-label">Scroll down to see my work!</span>
             <router-link to="/about">Learn More</router-link>
+        </div>
+
+        <div class="my-works">
+            <div class="merch-works">
+                <h5>Merch</h5>
+
+                <MerchWorks />
+            </div>
         </div>
     </main>
 </template>
@@ -85,6 +95,21 @@
 
         &:hover {
             box-shadow: 0px 0px 20px #003554;
+        }
+    }
+}
+.my-works {
+    margin-top: 120px;
+
+    & .merch-works {
+        & h5 {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 52px;
+            color: #fff;
+            background-color: #051923;
+            padding: 10px 0px;
+            margin-bottom: 20px;
         }
     }
 }
