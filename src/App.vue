@@ -1,5 +1,6 @@
 <script setup>
 import Header from "@/components/HeaderView.vue";
+import Footer from "@/components/FooterView.vue";
 </script>
 <template>
     <!-- <nav>
@@ -8,6 +9,7 @@ import Header from "@/components/HeaderView.vue";
   </nav> -->
     <Header />
     <router-view />
+    <Footer />
 </template>
 
 <style lang="scss">

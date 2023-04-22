@@ -19,6 +19,16 @@ import MerchWorks from "@/components/MerchView.vue";
 
                 <MerchWorks />
             </div>
+            <div class="logo-works">
+                <h5>Logo</h5>
+
+                <MerchWorks />
+            </div>
+            <div class="poster-works">
+                <h5>Poster</h5>
+
+                <MerchWorks />
+            </div>
         </div>
     </main>
 </template>
@@ -111,6 +121,30 @@ import MerchWorks from "@/components/MerchView.vue";
             padding: 10px 0px;
             margin-bottom: 20px;
         }
+    }
+    & .logo-works {
+        & h5 {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 52px;
+            color: #fff;
+            background-color: #051923;
+            padding: 10px 0px;
+            margin-bottom: 20px;
+        }
+        margin-top: 120px;
+    }
+    & .poster-works {
+        & h5 {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 52px;
+            color: #fff;
+            background-color: #051923;
+            padding: 10px 0px;
+            margin-bottom: 20px;
+        }
+        margin-top: 120px;
     }
 }
 </style>
