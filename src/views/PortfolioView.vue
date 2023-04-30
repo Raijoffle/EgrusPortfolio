@@ -42,7 +42,7 @@ import MerchWorks from "@/components/MerchView.vue";
     height: 450px;
     position: relative;
     z-index: 1;
-
+    margin-top: 120px;
     & .title-bg {
         height: 400px;
         position: absolute;

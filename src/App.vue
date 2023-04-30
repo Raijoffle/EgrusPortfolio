@@ -14,7 +14,7 @@ import Footer from "@/components/FooterView.vue";
 
 <style lang="scss">
 #app {
-    font-family: Dm Sans;
+    font-family: Roboto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
